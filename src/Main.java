@@ -10,8 +10,7 @@ public class Main {
         weight = in.nextFloat();
         System.out.print ("Введите Рост \n");
         height = in.nextFloat();
-        float BMI = 0;
-        System.out.print ("Индекс массы тела составляет: \n" + service.calculate (BMI, weight, height));
+        System.out.print ("Индекс массы тела составляет: \n" + service.calculate (weight, height));
     }
 }
 // в следующий раз буду согласно требованиям делать. очень много времени убил) нужно больше опыта)
